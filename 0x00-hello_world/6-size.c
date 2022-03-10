@@ -3,7 +3,7 @@
 /**
  * main - the entry point
  * Print the size of int, char and co
- * Return 0 if successful
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
