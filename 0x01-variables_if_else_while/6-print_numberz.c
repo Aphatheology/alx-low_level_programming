@@ -2,14 +2,14 @@
 
 /**
  * main - the entry point
- * print alphabet in lowercase
+ * print 0 - 9 using putchar
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char n;
+	int n;
 
-	for (n = 'a'; n <= 'z'; n++)
+	for (n = 48; n < 58; n++)
 	{
 		putchar(n);
 	}
