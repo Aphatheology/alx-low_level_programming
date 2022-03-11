@@ -1,10 +1,11 @@
+#include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
 
 /**
  * main - the entry point
  * check if random number generated is positive or negative or 0
- * Return: Always 0 (Successful)
+ * Return: Always 0 (Success)
  */
 int main(void) 
 {
