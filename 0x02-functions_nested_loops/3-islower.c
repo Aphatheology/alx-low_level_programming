@@ -2,8 +2,8 @@
 
 /**
  * _islower - check if a character is lowercasw
- * Take a character argument
- * Return 1 if successful
+ * @c: Take a character c as argument to be checked
+ * Return:  1 if successful and 0 if otherwise
  */
 int _islower(int c)
 {
