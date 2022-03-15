@@ -3,15 +3,19 @@
 /**
  * print_alphabet_x10 - prints alphabet 10 times
  * No parameter needed
- * Return: Always 0
+ * Return: void
  */
 void print_alphabet_x10(void)
 {
-	int i = 1;
+	int i;
+	char c;
 
-	while (i <= 10)
+	for (i = 1; i <= 10; i++)
 	{
-		print_alphabet();
-		i++;
+		for (c = 'a'; c <= 'z'; c++)
+		{
+			_putchar(c);
+		}
+		_putchar('\n');
 	}
 }
