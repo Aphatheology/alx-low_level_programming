@@ -1,0 +1,2 @@
+
+task for static libraries.
