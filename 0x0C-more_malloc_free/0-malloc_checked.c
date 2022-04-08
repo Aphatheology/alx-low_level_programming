@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+
 /**
  * malloc_checked - Function allocates memory using malloc.
  * @b: Parameter collects size of memory.
