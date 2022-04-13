@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * int_index - search for int
- * @array: array to search
+ * int_index - Function that searches for an integer
+ * @array: array of integers
  * @size: size of array
- * @cmp: iterator function
- * @Return: index or -1
+ * @cmp: function pointer
+ * Return: index of first element that matches with `cmp`, or -1 if none found
  */
+
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
