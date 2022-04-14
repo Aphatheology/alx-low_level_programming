@@ -6,6 +6,7 @@
  * print_numbers - print numbers and newline
  * @separator: string 
  * @n: number of int
+ * Return: nothing
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
